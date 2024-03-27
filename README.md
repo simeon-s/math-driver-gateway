@@ -124,7 +124,7 @@ cd <project-root-dir>
 ```
 
 ```console
-$ python3 -m ipc.py_client.client
+python3 -m ipc.py_client.client
 ```
 Expected UI:
 ```text
