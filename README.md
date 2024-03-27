@@ -73,8 +73,6 @@ This project implements:
 git clone https://github.com/simeon-s/math-driver-gateway.git && cd math-driver-gateway
 ```
 
-## **DISCLAIMER**: All commands are designed to be executed from the root project directory!
-
 ### 3.3 Build and run kernel module
 To build the chardev run this script as sudo:
 ```console
