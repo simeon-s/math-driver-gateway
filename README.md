@@ -159,7 +159,7 @@ python3 -m ipc.server.server
 ### 6.2.2 Start the script
 It will create multiple clients. Wait for its end.
 ``` console
-pytest test/math_chardev/test_math_chardev.py
+test/py_client_server/test_multiple_clients.sh
 ```
 
 ### 6.2.3 Result and logs:
