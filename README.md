@@ -151,21 +151,6 @@ To run a unit test of the kernel module run
 pytest test/math_chardev/test_math_chardev.py
 ```
 
-### 6.2 Test the server with multiple Python client connections
-### 6.2.1 Start the server.
-``` console
-python3 -m ipc.server.server
-```
-
-### 6.2.2 Start the script
-It will create multiple clients. Wait for its end.
-``` console
-test/py_client_server/test_multiple_clients.sh
-```
-
-### 6.2.3 Result and logs:
-Take a look at this directory:
-`test/py_client_server/output/`
 
 ## 7. Other
 **Environment:** Developed and tested on kernel 6.2.0-37 and Python 3.10.12.
