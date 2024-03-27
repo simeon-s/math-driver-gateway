@@ -163,9 +163,8 @@ test/py_client_server/test_multiple_clients.sh
 ```
 
 ### 6.2.3 Result and logs:
-``` console
-test/py_client_server/output/
-```
+Take a look at this directory:
+`test/py_client_server/output/`
 
 ## 7. Other
 **Environment:** Developed and tested on kernel 6.2.0-37 and Python 3.10.12.
