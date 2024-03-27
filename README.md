@@ -137,7 +137,7 @@ Enter command (1-5):
 ```
 **The user can send 2 operands and an operator to the server.**
 #### 5.3.1 Example run of client, server, and kmesg of the driver
-[![Example run](./screenshot_01.png)](./screenshot_01.png)
+[![Example run](./img/screenshot_01.png)](./img/screenshot_01.png)
 
 #### 5.4 Run the C client
 ```console
