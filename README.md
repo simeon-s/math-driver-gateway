@@ -135,6 +135,7 @@ Expected UI:
 (5) Exit
 Enter command (1-5):  
 ```
+**The user can send 2 operands and an operator to the server.**
 
 #### 5.4 Run the C client
 ```console
