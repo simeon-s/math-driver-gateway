@@ -112,7 +112,7 @@ python3 -m ipc.server.server
 
 Expected output:
 
-```text
+```console
 2024-03-27 01:18:17,142 | INFO  | MainThread | Server is listening...
 ```
 
@@ -125,7 +125,7 @@ cd <project-root-dir>
 python3 -m ipc.py_client.client
 ```
 Expected UI:
-```text
+```console
 (1) Add two numbers
 (2) Subtract two numbers
 (3) Divide two numbers
