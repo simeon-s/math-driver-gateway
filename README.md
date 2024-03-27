@@ -92,7 +92,7 @@ To ensure its presence run:
 sudo apt-get install zlib1g-dev
 ```
 Build it
-```console
+```
 sudo make -C ipc/c_client/
 ```
 
