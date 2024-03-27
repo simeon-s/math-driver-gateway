@@ -21,7 +21,7 @@ This project implements:
 - Interacts with the server with the custom protocol.
 
 ## 2. Project structure explained
-``` console
+```
 .
 ├── build                        # Created by the make/build commands to store artifacts
 │
@@ -75,7 +75,7 @@ git clone https://github.com/simeon-s/math-driver-gateway.git && cd math-driver-
 
 ### 3.3 Build and run kernel module
 To build the chardev run this script as sudo:
-```console
+```
 sudo kernel_module/scripts/build.sh
 ```
 The script will:
@@ -88,7 +88,7 @@ The script will:
 **Requires:** `libz.so.1`
 
 To ensure its presence run:
-```console
+```
 sudo apt-get install zlib1g-dev
 ```
 Build it
@@ -106,7 +106,7 @@ sudo dmesg | grep math_chardev
 ```
 
 ### 5.2 Run the server:
-```console
+```
 python3 -m ipc.server.server
 ```
 
@@ -147,7 +147,7 @@ The experience should be similar to the Python one, but it's not finished. The e
 ### 6.1 Math chardev unit test
 The server **should not be working** with active connections, otherwise the device will be busy.
 To run a unit test of the kernel module run
-``` console
+```
 pytest test/math_chardev/test_math_chardev.py
 ```
 
