@@ -69,7 +69,7 @@ This project implements:
 
 
 ### 3.2 Download the repo
-```console
+```
 git clone https://github.com/simeon-s/math-driver-gateway.git && cd math-driver-gateway
 ```
 
@@ -101,7 +101,7 @@ sudo make -C ipc/c_client/
 ### 5.1 Run the kernel module
 The `math_chardev` should be already prepared by the ``build.sh`` and ready for usage.
 To track the device char messages:
-```console
+```
 sudo dmesg | grep math_chardev
 ```
 
@@ -117,11 +117,11 @@ Expected output:
 ```
 
 ### 5.3 Run the Python client in another tab:
-```console
+```
 cd <project-root-dir>
 ```
 
-```console
+```
 python3 -m ipc.py_client.client
 ```
 Expected UI:
@@ -138,7 +138,7 @@ Enter command (1-5):
 [![Example run](./img/screenshot_01.png)](./img/screenshot_01.png)
 
 #### 5.4 Run the C client
-```console
+```
 build/c_client/main
 ```
 The experience should be similar to the Python one, but it's not finished. The error handling and input validation is not complete.
