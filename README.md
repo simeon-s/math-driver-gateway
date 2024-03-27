@@ -7,14 +7,14 @@ This project implements:
 
 ## 1. Key features
 ### 1.1 Chardev
-- Accepts two operands and operator.
+- Accepts two operands and an operator.
 - Supports basic math operations  [+,-.*,/].
 - Calculates and returns to user space.
 
 ### 1.2 Server
 - Handle multiple client connections.
 - Handle math operations.
-- Uses custom protocol with acknowledgement, error types and CRC check.
+- Uses custom protocol with acknowledgment, error types and CRC check.
 
 ### 1.3 Client
 - Provides basic terminal UI for math operations
@@ -70,7 +70,7 @@ This project implements:
 
 ### 3.2 Download the repo
 ```console
-git clone TODO && cd TODO
+git clone https://github.com/simeon-s/math-driver-gateway.git && cd math-driver-gateway
 ```
 
 ## **DISCLAIMER**: All commands are designed to be executed from the root project directory!
@@ -118,7 +118,7 @@ Expected output:
 2024-03-27 01:18:17,142 | INFO  | MainThread | Server is listening...
 ```
 
-### 5.3 Run the python client in another tab:
+### 5.3 Run the Python client in another tab:
 ```console
 cd <project-root-dir>
 ```
@@ -140,12 +140,12 @@ Enter command (1-5):
 ```console
 build/c_client/main
 ```
-The experience should be similar to the python one, but it's not finished. The error handling and input validation is not complete.
+The experience should be similar to the Python one, but it's not finished. The error handling and input validation is not complete.
 
 ## 6. Automated tests
 ### 6.1 Math chardev unit test
 The server **should not be working** with active connections, otherwise the device will be busy.
-To run unit test of the kernel module run
+To run a unit test of the kernel module run
 ``` console
 pytest test/math_chardev/test_math_chardev.py
 ```
